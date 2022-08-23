@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]>   <html class="no-js oldie ie9 ie" lang="pl-PL" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="pl-PL" > <!--<![endif]-->
+<head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- devices setting -->
+        <meta name="viewport"   content="initial-scale=1,user-scalable=no,width=device-width">
+
+<!-- outputs by wp_head -->
+<title>Strona nie została znaleziona &#8211; str</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="str &raquo; Kanał z wpisami" href="http://str.local/feed/" />
+<link rel="alternate" type="application/rss+xml" title="str &raquo; Kanał z komentarzami" href="http://str.local/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/str.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://str.local/wp-includes/css/dist/block-library/style.min.css?ver=6.0.1' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='auxin-base-css'  href='http://str.local/wp-content/themes/phlox/css/base.css?ver=2.9.19' media='all' />
+<link rel='stylesheet' id='auxin-front-icon-css'  href='http://str.local/wp-content/themes/phlox/css/auxin-icon.css?ver=2.9.19' media='all' />
+<link rel='stylesheet' id='auxin-main-css'  href='http://str.local/wp-content/themes/phlox/css/main.css?ver=2.9.19' media='all' />
+<link rel='stylesheet' id='auxin-custom-css'  href='http://str.local/wp-content/uploads/phlox/custom.css?ver=9.3' media='all' />
+<link rel='stylesheet' id='auxin-elementor-base-css'  href='http://str.local/wp-content/themes/phlox/css/other/elementor.css?ver=2.9.19' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='http://str.local/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.2' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css'  href='http://str.local/wp-content/uploads/elementor/css/post-6.css?ver=1661266951' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css'  href='http://str.local/wp-content/uploads/elementor/css/post-7.css?ver=1661266952' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRaleway%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=latin-ext&#038;ver=6.0.1' media='all' />
+<script src='http://str.local/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='http://str.local/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script id='auxin-modernizr-js-extra'>
+var auxin = {"ajax_url":"http:\/\/str.local\/wp-admin\/admin-ajax.php","is_rtl":"","is_reponsive":"1","is_framed":"","frame_width":"20","wpml_lang":"en","uploadbaseurl":"http:\/\/str.local\/wp-content\/uploads","nonce":"49b55111df"};
+</script>
+<script id='auxin-modernizr-js-before'>
+/* < ![CDATA[ */
+function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)"window"!=e[t]&&(i=e[t],a[i]=a[i]||{},a=a[i]);return a;}
+/* ]]> */
+</script>
+<script src='http://str.local/wp-content/themes/phlox/js/solo/modernizr-custom.min.js?ver=2.9.19' id='auxin-modernizr-js'></script>
+<link rel="https://api.w.org/" href="http://str.local/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://str.local/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://str.local/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.1" />
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#1bb0ce" />
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#1bb0ce" />
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- end wp_head -->
+</head>
+
+
+<body class="error404 elementor-default elementor-kit-5 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky  aux-page-animation-off _auxels"  data-framed="">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+<div id="inner-body">
+
+    <header class="aux-elementor-header" id="site-elementor-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader" data-sticky-height="80"  >
+        <div class="aux-wrapper">
+            <div class="aux-header aux-header-elements-wrapper">
+            		<div data-elementor-type="header" data-elementor-id="6" class="elementor elementor-6">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-54a26d6 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="54a26d6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-99ffd65" data-id="99ffd65" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c49eb21 elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget-mobile__width-auto elementor-widget elementor-widget-aux_logo" data-id="c49eb21" data-element_type="widget" data-widget_type="aux_logo.default">
+				<div class="elementor-widget-container">
+			<div class="aux-widget-logo"><section class="aux-logo-text"><h3 class="site-title"><a href="http://str.local/" title="str">str</a></h3><p class="site-description">Kolejna świetna strona z motywem Phlox.</p></section></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d052931 elementor-widget__width-auto elementor-widget-tablet__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-aux_menu_box" data-id="d052931" data-element_type="widget" data-widget_type="aux_menu_box.default">
+				<div class="elementor-widget-container">
+			There are no menu items in this menu.		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		            </div><!-- end of header-elements -->
+        </div><!-- end of wrapper -->
+    </header><!-- end header -->
+
+    <main id="main" class="aux-main aux-territory  no-sidebar aux-user-entry" >
+        <div class="aux-wrapper">
+            <div class="aux-container aux-fold">
+
+                <div id="primary" class="aux-primary" >
+                    <div class="content" role="main" data-target="index" >
+
+                                                <article class="post error404 not-found" >
+
+                            <div class="entry-main">
+
+                                <div class="entry-content">
+                                    <h2>404</h2>
+                                    <div class="aux-404-icon"></div>
+                                    <h3 class="entry-title">Ups! Strona nie została znaleziona</h3>
+                                    <p class="message404" >Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie przyniesie lepsze rezultaty.</p>
+                                </div>
+
+                                    <div  class="aux-search-section aux-404-search">
+            <button class="aux-search-icon  auxicon-search-4  "></button>
+                <div  class="aux-search-form aux-iconic-search">
+            <form action="http://str.local/" method="get" >
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field"  placeholder="Szukaj…" name="s" autocomplete="off" />
+                                    </div>
+                            <div class="aux-submit-icon-container auxicon-search-4 ">
+                    <input type="submit" class="aux-iconic-search-submit" value="Szukaj" >
+                </div>
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+
+                                <a href="http://str.local/" class="aux-back-to-home"> <span class="aux-simple-arrow-left-symbol"></span> Zabierz mnie z powrotem na stronę główną </a>
+
+                            </div>
+
+                       </article>
+
+                    </div><!-- end content -->
+                </div><!-- end primary -->
+
+
+                
+
+            </div><!-- end container -->
+        </div><!-- end wrapper -->
+    </main><!-- end main -->
+
+    <footer class="aux-elementor-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo"  >
+        <div class="aux-wrapper">
+        		<div data-elementor-type="footer" data-elementor-id="7" class="elementor elementor-7">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-333a101 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="333a101" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-1f2d8af4" data-id="1f2d8af4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5f40f80f elementor-widget__width-auto elementor-hidden-phone elementor-widget elementor-widget-aux_logo" data-id="5f40f80f" data-element_type="widget" data-widget_type="aux_logo.default">
+				<div class="elementor-widget-container">
+			<div class="aux-widget-logo"><section class="aux-logo-text"><h3 class="site-title"><a href="http://str.local/" title="str">str</a></h3><p class="site-description">Kolejna świetna strona z motywem Phlox.</p></section></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3d79eb07 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="3d79eb07" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.2 - 21-08-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>© 2019 Company. All rights reserved.  Powered by  Phlox Theme</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-698f8207 elementor-hidden-phone" data-id="698f8207" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fe24b66 elementor-widget__width-auto elementor-widget elementor-widget-aux_icon_list" data-id="fe24b66" data-element_type="widget" data-widget_type="aux_icon_list.default">
+				<div class="elementor-widget-container">
+			<section class="widget-container aux-widget-icon-list aux-parent-auadb8561c" style="" ><div class="widget-inner"><div class="aux-widget-icon-list-inner"><ul class="aux-icon-list-items aux-direction-default" ><li class="aux-icon-list-item aux-list-item-has-icon aux-icon-list-item-694bfa8 elementor-repeater-item-694bfa8" ><span class="aux-icon-list-icon auxicon-facebook" ></span></li></ul></div></div></section><!-- widget-container -->		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		        </div><!-- end of wrapper -->
+    </footer><!-- end footer -->
+
+</div><!--! end of #inner-body -->
+
+    <div class="aux-hidden-blocks">
+
+        <section id="offmenu" class="aux-offcanvas-menu aux-pin-left" >
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+            </div>
+            <div class="offcanvas-content">
+            </div>
+            <div class="offcanvas-footer">
+            </div>
+        </section>
+        <!-- offcanvas section -->
+
+        <section id="offcart" class="aux-offcanvas-menu aux-offcanvas-cart aux-pin-left" >
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+                Koszyk na zakupy            </div>
+            <div class="aux-cart-wrapper aux-elegant-cart aux-offcart-content">
+            </div>
+        </section>
+        <!-- cartcanvas section -->
+
+                <section id="fs-menu-search" class="aux-fs-popup  aux-fs-menu-layout-center aux-indicator">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-fs-menu">
+                        </div>
+            <div class="aux-fs-search">
+                <div  class="aux-search-section ">
+                <div  class="aux-search-form ">
+            <form action="http://str.local/" method="get" >
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field"  placeholder="Pisz tutaj.." name="s" autocomplete="off" />
+                                    </div>
+                            <input type="submit" class="aux-black aux-search-submit aux-uppercase" value="Szukaj" >
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search and menu -->
+                <section id="fs-search" class="aux-fs-popup aux-search-overlay  has-ajax-form">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-search-field">
+
+            <div  class="aux-search-section aux-404-search">
+                <div  class="aux-search-form aux-iconic-search">
+            <form action="http://str.local/" method="get" >
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field"  placeholder="Szukaj…" name="s" autocomplete="off" />
+                                    </div>
+                            <div class="aux-submit-icon-container auxicon-search-4 ">
+                    <input type="submit" class="aux-iconic-search-submit" value="Szukaj" >
+                </div>
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search-->
+
+        <div class="aux-scroll-top"></div>
+    </div>
+
+    <div class="aux-goto-top-btn aux-align-btn-right" data-animate-scroll="1"><div class="aux-hover-slide aux-arrow-nav aux-round aux-outline">    <span class="aux-overlay"></span>    <span class="aux-svg-arrow aux-h-small-up"></span>    <span class="aux-hover-arrow aux-svg-arrow aux-h-small-up aux-white"></span></div></div>
+<!-- outputs by wp_footer -->
+<link rel='stylesheet' id='elementor-icons-css'  href='http://str.local/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css'  href='http://str.local/wp-content/uploads/elementor/css/post-5.css?ver=1661266952' media='all' />
+<link rel='stylesheet' id='auxin-elementor-widgets-css'  href='http://str.local/wp-content/plugins/auxin-elements/admin/assets/css/elementor-widgets.css?ver=2.10.1' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://str.local/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://str.local/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.1' media='all' />
+<link rel='stylesheet' id='google-fonts-2-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=latin-ext&#038;ver=6.0.1' media='all' />
+<script src='http://str.local/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='http://str.local/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
+<script src='http://str.local/wp-content/themes/phlox/js/plugins.min.js?ver=2.9.19' id='auxin-plugins-js'></script>
+<script src='http://str.local/wp-content/plugins/auxin-elements/admin/assets/js/elementor/widgets.js?ver=2.10.1' id='auxin-elementor-widgets-js'></script>
+<script id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"pl","strings":{"mejs.download-file":"Pobierz plik","mejs.install-flash":"Korzystasz z przegl\u0105darki, kt\u00f3ra nie ma w\u0142\u0105czonej lub zainstalowanej wtyczki Flash player. W\u0142\u0105cz wtyczk\u0119 Flash player lub pobierz najnowsz\u0105 wersj\u0119 z https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Tryb pe\u0142noekranowy","mejs.play":"Odtw\u00f3rz","mejs.pause":"Zatrzymaj","mejs.time-slider":"Slider Czasu","mejs.time-help-text":"U\u017cyj strza\u0142ek lewo\/prawo aby przesun\u0105\u0107 o sekund\u0119 do przodu lub do ty\u0142u, strza\u0142ek g\u00f3ra\/d\u00f3\u0142 aby przesun\u0105\u0107 o dziesi\u0119\u0107 sekund.","mejs.live-broadcast":"Transmisja na \u017cywo","mejs.volume-help-text":"U\u017cywaj strza\u0142ek do g\u00f3ry\/do do\u0142u aby zwi\u0119kszy\u0107 lub zmniejszy\u0107 g\u0142o\u015bno\u015b\u0107.","mejs.unmute":"W\u0142\u0105cz dzwi\u0119k","mejs.mute":"Wycisz","mejs.volume-slider":"Suwak g\u0142o\u015bno\u015bci","mejs.video-player":"Odtwarzacz video","mejs.audio-player":"Odtwarzacz plik\u00f3w d\u017awi\u0119kowych","mejs.captions-subtitles":"Napisy","mejs.captions-chapters":"Rozdzia\u0142y","mejs.none":"Brak","mejs.afrikaans":"afrykanerski","mejs.albanian":"Alba\u0144ski","mejs.arabic":"arabski","mejs.belarusian":"bia\u0142oruski","mejs.bulgarian":"bu\u0142garski","mejs.catalan":"katalo\u0144ski","mejs.chinese":"chi\u0144ski","mejs.chinese-simplified":"chi\u0144ski (uproszczony)","mejs.chinese-traditional":"chi\u0144ski (tradycyjny)","mejs.croatian":"chorwacki","mejs.czech":"czeski","mejs.danish":"du\u0144ski","mejs.dutch":"holenderski","mejs.english":"angielski","mejs.estonian":"esto\u0144ski","mejs.filipino":"filipi\u0144ski","mejs.finnish":"fi\u0144ski","mejs.french":"francuski","mejs.galician":"galicyjski","mejs.german":"niemiecki","mejs.greek":"grecki","mejs.haitian-creole":"Kreolski haita\u0144ski","mejs.hebrew":"hebrajski","mejs.hindi":"hinduski","mejs.hungarian":"w\u0119gierski","mejs.icelandic":"islandzki","mejs.indonesian":"indonezyjski","mejs.irish":"irlandzki","mejs.italian":"w\u0142oski","mejs.japanese":"japo\u0144ski","mejs.korean":"korea\u0144ski","mejs.latvian":"\u0142otewski","mejs.lithuanian":"litewski","mejs.macedonian":"macedo\u0144ski","mejs.malay":"malajski","mejs.maltese":"malta\u0144ski","mejs.norwegian":"norweski","mejs.persian":"perski","mejs.polish":"polski","mejs.portuguese":"portugalski","mejs.romanian":"rumu\u0144ski","mejs.russian":"rosyjski","mejs.serbian":"serbski","mejs.slovak":"s\u0142owacki","mejs.slovenian":"s\u0142owe\u0144ski","mejs.spanish":"hiszpa\u0144ski","mejs.swahili":"suahili","mejs.swedish":"szwedzki","mejs.tagalog":"tagalski","mejs.thai":"tajski","mejs.turkish":"turecki","mejs.ukrainian":"ukrai\u0144ski","mejs.vietnamese":"wietnamski","mejs.welsh":"walijski","mejs.yiddish":"jidysz"}};
+</script>
+<script src='http://str.local/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script src='http://str.local/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.0.1' id='mediaelement-migrate-js'></script>
+<script id='mediaelement-js-extra'>
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"auto"};
+</script>
+<script src='http://str.local/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.1' id='wp-mediaelement-js'></script>
+<script src='http://str.local/wp-content/plugins/auxin-elements/public/assets/js/plugins.min.js?ver=2.10.1' id='auxin-elements-plugins-js'></script>
+<script src='http://str.local/wp-content/plugins/auxin-elements/public/assets/js/scripts.js?ver=2.10.1' id='auxin-elements-scripts-js'></script>
+<script src='http://str.local/wp-content/themes/phlox/js/scripts.min.js?ver=2.9.19' id='auxin-scripts-js'></script>
+<script src='http://str.local/wp-content/uploads/phlox/custom.js?ver=3' id='auxin-custom-js-js'></script>
+<script src='http://str.local/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.2' id='elementor-webpack-runtime-js'></script>
+<script src='http://str.local/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.2' id='elementor-frontend-modules-js'></script>
+<script src='http://str.local/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='http://str.local/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Udost\u0119pnij na Facebooku","shareOnTwitter":"Udost\u0119pnij na Twitterze","pinIt":"Przypnij","download":"Pobierz","downloadImage":"Pobierz obraz","fullscreen":"Tryb pe\u0142noekranowy","zoom":"Powi\u0119ksz","share":"Udost\u0119pnij","playVideo":"Odtw\u00f3rz wideo","previous":"Poprzednie","next":"Nast\u0119pne","close":"Zamknij"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Urz\u0105dzenie przeno\u015bne","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Szeroki ekran","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"http:\/\/str.local\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Strona nie zosta\u0142a znaleziona &#8211; str","excerpt":""}};
+</script>
+<script src='http://str.local/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.2' id='elementor-frontend-js'></script>
+<!-- end wp_footer -->
+</body>
+</html>
