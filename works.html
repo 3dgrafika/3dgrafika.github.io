@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+      <!-- Meta -->
+      <title>Works</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free HTML template">
+      <meta name="keywords" content="HTML, template, free">
+      <meta name="author" content="Nicola Tolin">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Styles -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <style type="text/css">
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <a class="navbar-brand mx-auto" href="index.html">
+         <img src="img/logo-black.png" height="22" alt="Logo">
+         </a>
+         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="menu-toggle">
+               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
+            </div>
+         </div>
+         <div id="toggle-nav" class="navbar-collapse collapse">
+            <ul class="navbar-nav">
+               <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="studio.html">Studio</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="works.html">Works</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+            </ul>
+            <div id="social">
+               <p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p>
+            </div>
+         </div>
+      </nav>
+      <!-- Works -->
+      <div class="container-fluid works wow fadeInDown">
+         <div class="row justify-content-center">
+            <div class="col-xl-6 col-md-8 col-sm-12">
+               <p class="text-center">
+                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- End Works -->
+      <!-- Swiper -->
+      <div class="swiper-container">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-1.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-2.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-3.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-4.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-5.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-6.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-7.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-8.jpg" alt="Photo"></div>
+            <div class="swiper-slide"> <img class="img-fluid" src="img/gallery/photo-9.jpg" alt="Photo"></div>
+         </div>
+         <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+         <!-- Add Arrows -->
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+      <!-- End Footer -->
+      <!-- Javascript -->
+      <script src="vendor/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="vendor/wow/wow.js"></script>
+      <script src="js/global.min.js"></script>
+      <script src="js/script.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <!-- Swiper JS -->
+      <script src="vendor/swiper/js/swiper.min.js"></script>
+      <script>
+         var swiper = new Swiper('.swiper-container', {
+           loop: true,
+           loopFillGroupWithBlank: true,
+           pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+           },
+           breakpoints: {
+         400: {
+           slidesPerView: 1,
+           slidesPerGroup: 1,
+           spaceBetween: 30,
+         },
+         768: {
+           slidesPerView: 2,
+           slidesPerGroup: 1,
+           spaceBetween: 30,
+         },
+         1200: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+          spaceBetween: 30,
+         },
+         },
+           keyboard: {
+               enabled: true,
+               onlyInViewport: false,
+            },
+           navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+           },
+         });
+      </script>
+      <!-- End Javascript -->
+   </body>
+</html>
