@@ -13,19 +13,19 @@ description: "Projekt domu prywatnego"
 <hr class="my-5">
 	
 <div class="row">
-		<div class="col-lg-4 text-center">
+		<div class="col-lg-3 text-center">
 			<p class="text-color font-weight-bold mb-2">Klient</p>
 			<p>Prywatny</p>
 		</div>
-		<div class="col-lg-4 text-center">
+		<div class="col-lg-3 text-center">
 			<p class="text-color font-weight-bold mb-2">Kategoria</p>
 			<p>Projekt budowlany, wizualizacje</p>
 		</div>
-		<div class="col-lg-4 text-center">
+		<div class="col-lg-3 text-center">
 			<p class="text-color font-weight-bold mb-2">Data</p>
 			<p>2022-08</p>
 		</div>
-        	<div class="col-lg-4 text-center">
+        	<div class="col-lg-3 text-center">
 			<p class="text-color font-weight-bold mb-2">Cos tam</p>
 			<p>ble ble ble</p>
 		</div>
