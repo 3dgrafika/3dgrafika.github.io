@@ -1,14 +1,14 @@
 #Please use the main menu items under the "name"
 main:
-  - name: Home
+  - name: GŁÓWNA
     url: /index.html
-  - name: About
+  - name: O MNIE
     url: /about.html
   - name: Services
     url: /services.html
-  - name: Portfolio
+  - name: PORTFOLIO
     url: /portfolio.html
-  - name: Contact
+  - name: KONTAKT
     url: /contact.html
 
 ########## footer menu ###############
