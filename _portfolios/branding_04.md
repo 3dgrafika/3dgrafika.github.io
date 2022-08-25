@@ -25,7 +25,7 @@ description: "Projekt domu prywatnego"
 			<p class="text-color font-weight-bold mb-2">Data</p>
 			<p>2022-08</p>
 		</div>
-        <div class="col-lg-4 text-center">
+        	<div class="col-lg-4 text-center">
 			<p class="text-color font-weight-bold mb-2">Cos tam</p>
 			<p>ble ble ble</p>
 		</div>
