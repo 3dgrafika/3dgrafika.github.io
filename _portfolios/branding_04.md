@@ -6,8 +6,9 @@ thumbnail: "/assets/images/wiz/wiz_002.jpg"
 description: "Projekt domu prywatnego"
 ---
 <div class="col-lg-8 text-center">
-	<h3 class="mb-5 mt-2">{{page.title}}</h3>
+    <h3 class="mb-5 mt-2">{{page.title}}</h3>
 	<p>{{page.description}}</p>
+    <img scr="{{thumbnail}}"/>
 
 <hr class="my-5">
 	
