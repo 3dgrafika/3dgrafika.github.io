@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "New Branding"
+title: "Projekt wnętrza"
 categories: ["Branding"]
 thumbnail: "/assets/images/portfolio/p-3.jpg"
-description: "tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat.duis aute irure"
+description: "Projekt wnętrza domu prywatnego"
 ---
 <div class="col-lg-8 text-center">
 	<h3 class="mb-5 mt-2">{{page.title}}</h3>
@@ -13,16 +13,20 @@ description: "tempor incididunt labore et dolore magna aliqua enim minim veniam 
 	
 <div class="row">
 		<div class="col-lg-4 text-center">
-			<p class="text-color font-weight-bold mb-2">Clients</p>
-			<p>Christopher Ronald</p>
+			<p class="text-color font-weight-bold mb-2">Klient</p>
+			<p>Prywatny</p>
 		</div>
 		<div class="col-lg-4 text-center">
-			<p class="text-color font-weight-bold mb-2">Category</p>
-			<p>Design, Branding, Mobile</p>
+			<p class="text-color font-weight-bold mb-2">Kategoria</p>
+			<p>Wnętrza, wizualizacje</p>
 		</div>
 		<div class="col-lg-4 text-center">
-			<p class="text-color font-weight-bold mb-2">Location</p>
-			<p>780 Lynnway, Lynn MA 1905</p>
+			<p class="text-color font-weight-bold mb-2">Data</p>
+			<p>2022-08</p>
+		</div>
+        <div class="col-lg-4 text-center">
+			<p class="text-color font-weight-bold mb-2">Cos tam</p>
+			<p>ble ble ble</p>
 		</div>
 	</div>
 
