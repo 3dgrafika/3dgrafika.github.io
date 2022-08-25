@@ -2,7 +2,7 @@
 layout: portfolio
 title: "Projekt domu"
 categories: ["Branding"]
-thumbnail: "/assets/images/portfolio/wiz_002.jpg"
+thumbnail: "/assets/images/wiz/wiz_002.jpg"
 description: "Projekt domu prywatnego"
 ---
 <div class="col-lg-8 text-center">
