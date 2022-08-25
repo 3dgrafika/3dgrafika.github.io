@@ -16,11 +16,11 @@ layout: default_2
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h3 class="mb-5">Related Projects</h3>
+				<h3 class="mb-5">Podobne projekty</h3>
 			</div>
 		</div>
 		<div class="row">
-            {% for portfolio in site.portfolios limit:"3" %}
+            {% for portfolio in site.portfolios limit:"4" %}
 			<div class="col-lg-4">
 				<div class="portfolio-block text-center border-0 ">
 				    <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
