@@ -1,0 +1,59 @@
+<div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-post-card-wrap js-post-card-wrap
+{% if page.url == '/' %} {% if forloop.first == true %} o-grid__col--4-4-m o-grid__col--2-3-l {% endif %} {% endif %}'>
+
+  <div class='c-post-card {% if page.url == '/' %} {% if forloop.first == true %} c-post-card--first {% endif %} {% endif %}'>
+    <div class='c-post-card__media'>
+      <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card__image js-fadein' style='background-image: url({{ post.image | prepend: site.baseurl }})'>
+        {% if post.featured %}
+          <span title='Featured Post'>
+            <span class='c-post-card--featured__icon' data-icon='ei-star' data-size='s'></span>
+          </span>
+        {% endif %}
+      </a>
+    </div>
+
+    <div class='c-post-card__content'>
+      <div class='c-post-card__tags'>
+        {% for tag in post.tags limit:1 %}
+          <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+        {% endfor %}
+      </div>
+
+      <div class='c-post-card__share'>
+        <a title='Share on Twitter'
+          href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ base_path }}{{ post.url }}"
+          onclick="window.open(this.href, 'twitter-share', 'width=550, height=235'); return false;">
+          <div class='icon icon--ei-sc-twitter icon--s c-post-card__share-icon'>
+            <svg class='icon__cnt'><use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#ei-sc-twitter-icon'></use></svg>
+          </div>
+        </a>
+        <a title='Share on Facebook'
+          href="https://facebook.com/sharer.php?u={{ base_path }}{{ post.url }}"
+          onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;">
+          <div class='icon icon--ei-sc-facebook icon--s c-post-card__share-icon'>
+            <svg class='icon__cnt'><use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#ei-sc-facebook-icon'></use></svg>
+          </div>
+        </a>
+        <a title='Share on Pinterest'
+          href="http://pinterest.com/pin/create/button/?url={{ base_path }}{{ post.url }}&description={{ post.title | url_encode }}"
+          onclick="window.open(this.href, 'google-share', 'width=580, height=296'); return false;">
+          <div class='icon icon--ei-sc-pinterest icon--s c-post-card__share-icon'>
+            <svg class='icon__cnt'><use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#ei-sc-pinterest-icon'></use></svg>
+          </div>
+        </a>
+      </div>
+
+      <h3 class='c-post-card__title'>
+        <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card__title-link'>
+          {{ post.title }}
+        </a>
+      </h3>
+
+      <div class='c-post-card__meta'>
+        <time class='c-post-card__date' datetime='{{ post.date | date_to_xmlschema }}' title='{{ post.date | date: '%d %b %Y' }}'>{{ post.date | date: '%d %b %Y' }}</time>
+        <div class='c-post-card__author'>{{ post.author }}</div>
+      </div>
+    </div>
+  </div>
+
+</div>

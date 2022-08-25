@@ -1,0 +1,54 @@
+<div class='c-widget c-widget-author'>
+
+  {% if author.gravatar %}
+    <div class='c-widget-author__media'>
+      <img class='c-widget-author__image' src='{{ author.gravatar }}' alt='{{ author.name }}'>
+    </div>
+    {% endif %}
+
+  <div class='c-widget-author__content'>
+    <h3 class='c-widget-author__title'>
+      {{ author.name }}
+    </h3>
+    {% if author.bio %}
+      <p class='c-widget-author__bio'>{{ author.bio }}</p>
+    {% endif %}
+
+    <div class='c-author__links'>
+      <ul class='o-plain-list'>
+        {% if author.twitter %}
+          <li class='c-author__links-item'>
+            <a href='{{ author.twitter }}' aria-label='Twitter' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-sc-twitter' data-size='s'></span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if author.github %}
+          <li class='c-author__links-item'>
+            <a href='{{ author.github }}' aria-label='Github' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-sc-github' data-size='s'></span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if author.email %}
+          <li class='c-author__links-item'>
+            <a href='mailto:{{ author.email }}' aria-label='Email' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-envelope' data-size='s'></span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if author.website %}
+          <li class='c-author__links-item'>
+            <a href='{{ author.website }}' aria-label='Website' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-link' data-size='s'></span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+</div>
