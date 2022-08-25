@@ -21,7 +21,7 @@ layout: default_2
 		</div>
 		<div class="row">
             {% for portfolio in site.portfolios limit:"4" %}
-			<div class="col-lg-4">
+			<div class="col-lg-3">
 				<div class="portfolio-block text-center border-0 ">
 				    <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
 				    <a class="card-img-overlay" href="{{portfolio.url}}">
