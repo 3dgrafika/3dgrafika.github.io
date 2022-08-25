@@ -1,0 +1,11 @@
+/*------------------------------------*\
+  Elements > Blockquote
+\*------------------------------------*/
+
+blockquote {
+  padding-left: $base-spacing-unit;
+  margin: ($base-spacing-unit + half($base-spacing-unit)) 0;
+  border-left: quarter($base-spacing-unit) solid $color-brand;
+  font-family: $font-serif;
+  font-size: $font-size-h4;
+}
