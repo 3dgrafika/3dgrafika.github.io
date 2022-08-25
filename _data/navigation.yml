@@ -1,0 +1,32 @@
+#Please use the main menu items under the "name"
+main:
+  - name: Home
+    url: /index.html
+  - name: About
+    url: /about.html
+  - name: Services
+    url: /services.html
+  - name: Portfolio
+    url: /portfolio.html
+  - name: Contact
+    url: /contact.html
+
+########## footer menu ###############
+footer:
+  - name: Services
+    url: /services.html
+  - name: Portfolio One
+    url: /portfolio-1.html
+  - name: Portfolio Two
+    url: /portfolio-2.html
+  - name: Single Portfolio
+    url: /portfolio-single.html
+  - name: Contact
+    url: /contact.html
+
+############## Bottom menu ###############
+bottom:
+  - name: Terms of Service
+    link: "#"
+  - name: Privacy Policy
+    link: "#"
