@@ -4,10 +4,9 @@
     <div class="row">
       <div class="col-lg-10">
         <span class="h5 text-color text-uppercase">
-          my works
+          Moje Projekty
         </span>
-        <h3 class="mb-4 mt-2">A collection of some recently completed projects, covering a wide range of design
-          disciplines</h3>
+        <h3 class="mb-4 mt-2">Zbiór ostatnio zrealizowanych projektów</h3>
       </div>
     </div>
 
@@ -15,7 +14,7 @@
       <div class="btn-group btn-group-toggle " data-toggle="buttons">
 
         <label class="btn border-0 active">
-          <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+          <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
         </label>
         {% assign categories = site.portfolios| map: 'categories' | join: ',' | split: ',' | uniq %}
         {% for category in categories %}
@@ -25,7 +24,7 @@
         </label>
         {% endfor %}
       </div>
-      <a href="portfolio-2.html" class="btn btn-outline-primary">All work</a>
+      <a href="portfolio-2.html" class="btn btn-outline-primary">Pełna Galeria</a>
     </div>
 
     <div class="row shuffle-wrapper portfolio-gallery">
