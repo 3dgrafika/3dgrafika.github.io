@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Projekt domu"
-categories: ["wnetrze"]
+categories: [wnetrze,viz,arch]
 thumbnail: "/assets/images/wiz/wiz_002.jpg"
 description: "Projekt domu prywatnego"
 ---
