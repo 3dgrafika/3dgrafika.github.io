@@ -58,6 +58,11 @@ body{
 .text-center{
     text-align: center!important;
 }
+
+.portfolio-block.text-center.border-0.img-ramka {
+    padding-bottom: 75%;
+    background-color: red;
+}
 .text-right{
     text-align: right!important;
 }
@@ -107,10 +112,17 @@ body{
 }
 .portfolio .portfolio-gallery .item .inner{
     position: relative;
+    width: 100%;
+    background-color: red;
+    padding-bottom: 100%;
 }
 .portfolio .portfolio-gallery .item img{
     width: 100%;
     display: block;
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 @media(max-width:767px){
