@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "New Branding"
-categories: ["Branding"]
+categories: wnetrze
 thumbnail: "/assets/images/portfolio/wiz_015.jpg"
 description: "Opis projektu"
 ---

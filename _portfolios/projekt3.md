@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: projekt 3
+categories: [ wnetrze, wizualizacje]
 thumbnail: "/assets/images/portfolio/wiz_013.jpg"
 description: "Opis projektu"
 ---

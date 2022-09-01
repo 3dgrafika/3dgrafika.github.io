@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "projekt1"
-categories: ["Wnetrze"]
+categories: arch
 thumbnail: "/assets/images/portfolio/wiz_016.jpg"
 description: "Opis projektu"
 ---
