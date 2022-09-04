@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+
+<section class="portfolio-single">
+	<div class="container">
+		<div class="row justify-content-center">
+          {{page.content}}
+		</div>
+	</div>
+</section>
+
+
+<section class="section related-project">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h3 class="mb-5">Related Projects</h3>
+			</div>
+		</div>
+		<div class="row">
+            {% for portfolio in site.portfolios limit:"3" %}
+			<div class="col-lg-4">
+				<div class="portfolio-block text-center border-0 ">
+				    <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
+				    <a class="card-img-overlay" href="{{portfolio.url}}">
+				      <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
+				      <p class="card-text text-white text-uppercase text-sm">{{portfolio.category}}</p>
+				    </a>
+				</div>
+			</div>
+            {% endfor %}
+		</div>
+	</div>
+</section>
+
+{% comment %} 
+  Previous / Next functions
+  Assign variables from the entire portfolio collection
+{% endcomment %}
+{% assign items_raw = site.portfolio | where: 'type', page.type %}
+{% assign items = items_raw | sort: 'year' | reverse %}
+
+{% if items.size > 1 %}
+  {% comment %}
+    Store the index position of the matching items
+  {% endcomment %}
+  {% for item in items %}
+    {% if item.title == page.title %}
+      {% assign item_index = forloop.index %}
+    {% endif %}
+  {% endfor %}
+  
+  {% assign prev_index = item_index | plus: 1 %}
+  {% assign next_index = item_index | minus: 1 %}
+  
+  {% for item in items %}
+    {% if forloop.index == prev_index %}
+      {% assign prev = item %}
+    {% endif %}
+    {% if forloop.index == next_index %}
+      {% assign next = item %}
+    {% endif %}
+  {% endfor %}
+
+  <p>
+    {% if prev %}
+      <a href="{{ prev.url }}" class="prev" title="{{ prev.title }}">&lt; Older</a>
+    {% endif %}
+    {% if prev and next %}
+      <span> | </span>
+    {% endif %}
+    {% if next %}
+      <a href="{{ next.url }}" class="next" title="{{ next.title }}">Newer &gt;</a>
+    {% endif %}
+  </p>
+{% endif %}
+
