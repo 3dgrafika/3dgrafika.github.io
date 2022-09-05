@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+
+<section class="portfolio-single">
+	<div class="container">
+		<div class="row justify-content-center">
+          {{page.content}}
+		</div>
+	</div>
+</section>
+
+
+<section id="more-work" class= "container row">
+    {% if page.previous %}
+        {% assign previous = page.previous %}
+    {% else %}
+        {% assign previous = site.posts[0] %}
+    {% endif %}
+    <div class=" col-6 text-left">
+        <a class="equalize" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
+            <div>
+                <h6> ← Previous Project </h6>
+                <h4> {{previous.title}} </h4>
+            </div>
+        </a>
+    </div>
+
+    {% if page.next %}
+        {% assign next = page.next %}
+    {% else %}
+        {%comment%}
+           As the array index start at zero we substract 1 to the total count,
+           we then get the last post index in the site.posts array
+        {%endcomment%}
+        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+        {% assign next = site.posts[lastPostIndex] %}
+    {% endif %}
+    <div class=" col-6 text-right">
+        <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+            <div>
+                <h6> Next Project →</h6>
+                <h4> {{next.title}}</h4>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+<section class="section related-project">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h3 class="mb-5">Related Projects</h3>
+			</div>
+		</div>
+		<div class="row">
+            {% for portfolio in site.portfolios limit:"3" %}
+			<div class="col-lg-4">
+				<div class="portfolio-block text-center border-0 ">
+				    <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
+				    <a class="card-img-overlay" href="{{portfolio.url}}">
+				      <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
+				      <p class="card-text text-white text-uppercase text-sm">{{portfolio.category}}</p>
+				    </a>
+				</div>
+			</div>
+            {% endfor %}
+		</div>
+	</div>
+</section>
+
