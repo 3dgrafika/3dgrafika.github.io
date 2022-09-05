@@ -12,7 +12,7 @@ layout: default
 </section>
 
 <section id="more-work" class= "container row">
-	<div class="col-6 text-left">
+	<div class="col-4 text-left">
 	  {% if page.previous.url %}
 		<a class="prev" href="{{page.previous.url}}">
 		    <div>
@@ -21,8 +21,17 @@ layout: default
             </div>	
 		</a>
 	  {% endif %}
-	</div>  
-	<div class="col-6 text-right">
+	</div> 
+	
+	<div class="col-4 justify-content-center d-flex align-items-center ">
+		<a class="" href="/portfolio.html">
+			<div>
+                <i class="ti-layout-grid3 " style="font-size: 2em;"></i>
+            </div>
+		</a>
+	</div>
+	
+	<div class="col-4 text-right">
 	  {% if page.next.url %}
 		<a class="next" href="{{page.next.url}}">
 			<div>
