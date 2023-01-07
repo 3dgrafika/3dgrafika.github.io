@@ -1,0 +1,13 @@
+<!-- galeria z lightbox-->
+<div class="" uk-lightbox="animation: fade">
+	{% for image in site.static_files %}
+		{% if image.path contains {{page.galeria}} %}
+			<div class="uk-margin-medium-bottom">
+				<a class="" href="{{ site.baseurl }}{{ image.path }}" data-caption="">
+					<img src="{{ site.baseurl }}{{ image.path }}" width="1800" height="1200" alt="">
+				</a>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
+<!-- galeria z lightbox-->
