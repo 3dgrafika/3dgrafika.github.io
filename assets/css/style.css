@@ -66,7 +66,16 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
 	
 .slider-glowny{
 	margin-bottom: 50px;
+
 	}
+
+.wys{
+  height: calc( 100vh - 208px );
+  width:100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  }
 
 .gallery-item-inner {
 
@@ -93,7 +102,7 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
     position: absolute;
     object-fit: cover;
     height: 100%;
-	width: 100%;
+	  width: 100%;
     filter: grayscale(0%);
     filter: brightness(1);
     transition: all .5s ease-in-out;
@@ -102,8 +111,8 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
 
 .gallery-item-inner img:hover {
     filter: grayscale(0%);
-    filter: brightness(1.1);
-    transform: scale(1.);
+    filter: brightness(1.);
+    transform: scale(1.05);
 	}    
 
 .uk-lightbox-toolbar {
@@ -342,3 +351,8 @@ transform: translate(10px,0px);
 }
 
 /**/
+
+.image_hero {
+    top: 30;
+    left: 0px;
+}
