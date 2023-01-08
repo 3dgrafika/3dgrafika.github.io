@@ -14,7 +14,7 @@ body {
     align-items: center;
     list-style: none;
     position: relative;
-    padding: 12px 20px;
+    padding: 12px 0px;
 }
 .logo img {width: 40px;}
 .menu {display: flex;}
