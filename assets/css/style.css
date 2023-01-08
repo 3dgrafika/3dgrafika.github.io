@@ -43,7 +43,7 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
 	font-size: 13px;
 	}
 .uk-navbar-container{
-  min-height: 100px;
+  min-height: 80px;
 }
 	
 .footer{
@@ -70,7 +70,7 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
 	}
 
 .wys{
-  height: calc( 100vh - 208px );
+  height: calc( 100vh - 160px );
   width:100vw;
   position: relative;
   left: 50%;
