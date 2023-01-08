@@ -48,12 +48,12 @@ body {
 }
 .open-menu {
     top: 50%;
-    right: 20px;
+    right: 0px;
     transform: translateY(-50%);
 }
 .close-menu {
     top: 37px;
-    right: 37px;
+    right: 17px;
 }
 #check {display: none;}
 @media(max-width: 610px){
