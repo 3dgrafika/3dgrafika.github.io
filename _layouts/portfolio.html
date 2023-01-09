@@ -8,15 +8,15 @@ layout: default
 <!-- nawigacja-->				
 <div class="uk-margin-medium " tabindex="0">
     <div class="uk-pagination ">
-        <div class="uk-width-2-5">
+        <div class="uk-width-expand">
             {% if page.previous.url %}
             <a class="my_move_left" href="{{page.previous.url}}"><span class="" uk-icon="icon: chevron-left; ratio: 2"></span>POPRZEDNI PROJEKT</a>
             {% endif %}
         </div>
-        <div class="uk-width-1-5">
+        <div class="uk-width-auto">
             <a class="uk-position-center" href="/galeria.html" class="uk-icon-link " uk-icon="icon: grid; ratio: 1.2"></a>
         </div>
-        <div class="uk-width-2-5">
+        <div class="uk-width-expand">
             {% if page.next.url %}
             <a class="my_move_right uk-position-right" href="{{page.next.url}}">KOLEJNY PROJEKT<span class="" uk-icon="icon: chevron-right; ratio: 2" ></span></a>
             {% endif %}
