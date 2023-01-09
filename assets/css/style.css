@@ -274,10 +274,6 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-.icon-flipped {
-  transform: scaleX(-1);
-
-}
 
 @media(max-width: 992px) {
 
