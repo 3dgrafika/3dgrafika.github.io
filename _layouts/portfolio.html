@@ -10,7 +10,7 @@ layout: default
     <div class="uk-pagination uk-child-width-expand">
         <div class="">
             {% if page.previous.url %}
-            <a class="my_move_left uk-flex uk-flex-middle" href="{{page.previous.url}}"><i class="material-symbols-outlined icon-flipped">arrow_forward_ios</i>POPRZEDNI PROJEKT</a>
+            <a class="my_move_left uk-flex uk-flex-middle" href="{{page.previous.url}}"><span class="material-symbols-outlined">arrow_back_ios_new</span>POPRZEDNI PROJEKT</a>
             {% endif %}
         </div>
         <div class="uk-width-1-6">
@@ -18,7 +18,7 @@ layout: default
         </div>
         <div class="">
             {% if page.next.url %}
-            <a class="my_move_right uk-flex uk-flex-middle uk-text-right uk-flex-right" href="{{page.next.url}}">KOLEJNY PROJEKT<i class="material-symbols-outlined">arrow_forward_ios</i></a>
+            <a class="my_move_right uk-flex uk-flex-middle uk-text-right uk-flex-right" href="{{page.next.url}}">KOLEJNY PROJEKT<span class="material-symbols-outlined">arrow_forward_ios</span></a>
             {% endif %}
         </div>
     </div>
