@@ -15,8 +15,8 @@ galeria: "img/portfolio/24/galeria"
 
 
 
-<div class="mainSection">
-    <div id="one" class="bal-container">
+<div class="">
+    <div id="one" class="bal-container uk-margin-medium-bottom ratio_4_3">
         <div class="bal-after">
             <img src="/assets/img/portfolio/24/Nowy folder/wiz_001.jpg">
             <div class="bal-afterPosition afterLabel">
@@ -36,7 +36,7 @@ galeria: "img/portfolio/24/galeria"
             <span class="handle-right-arrow"></span>
         </div>
     </div>
-    <div id="two" class="bal-container">
+    <div id="two" class="bal-container uk-margin-medium-bottom ratio_4_3">
         <div class="bal-after">
             <img src="/assets/img/portfolio/24/Nowy folder/wiz_004.jpg">
             <div class="bal-afterPosition afterLabel">
@@ -56,7 +56,7 @@ galeria: "img/portfolio/24/galeria"
             <span class="handle-right-arrow"></span>
         </div>
     </div>
-    <div id="three" class="bal-container">
+    <div id="three" class="bal-container uk-margin-medium-bottom ratio_4_3">
         <div class="bal-after">
             <img src="/assets/img/portfolio/24/Nowy folder/wiz_005.jpg">
             <div class="bal-afterPosition afterLabel">
