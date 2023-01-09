@@ -19,14 +19,14 @@ galeria: "img/portfolio/24/galeria"
     <div id="one" class="bal-container">
         <div class="bal-before">
             <div class="bal-before-inset">
-                <img src="/assets/img/portfolio/24/p/wiz_002.jpg">
+                <img src="/assets/img/portfolio/24/Nowy folder/wiz_002.jpg">
                 <div class="bal-beforePosition beforeLabel">
                     Wersja 1
                 </div>
             </div>
         </div>
         <div class="bal-after">
-            <img src="/assets/img/portfolio/24/p/wiz_001.jpg">
+            <img src="/assets/img/portfolio/24/Nowy folder/wiz_001.jpg">
             <div class="bal-afterPosition afterLabel">
                 Wersja 2
             </div>
