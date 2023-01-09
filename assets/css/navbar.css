@@ -53,7 +53,7 @@ body {
     transform: translateY(-50%);
 }
 .close-menu {
-    top: 37px;
+    top: 25px;
     right: 17px;
 }
 #check {display: none;}
