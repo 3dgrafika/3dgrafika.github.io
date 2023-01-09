@@ -259,6 +259,10 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
     margin-left: 10px;
     margin-right: 10px;
   }	
+
+  .my_move_left , .my_move_right {
+    font-size: 10px;
+  }
 }
 @media(max-width:768px) {
 
