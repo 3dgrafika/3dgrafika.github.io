@@ -37,6 +37,15 @@ galeria: "img/portfolio/24/galeria"
         </div>
     </div>
 </div>
+<br>
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "https://pannellum.org/images/alma.jpg"
+});
+</script>
+
 
 
 <script src="/assets/plugins/comparison-slider/js/script.js"></script>
