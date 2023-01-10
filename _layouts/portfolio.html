@@ -14,7 +14,7 @@ layout: default
             {% endif %}
         </div>
         <div class="uk-width-1-6">
-            <a class="uk-position-center uk-flex uk-flex-middle" href="/galeria.html" ><span class="material-icons">apps</span></a>
+            <a class="uk-position-center uk-flex uk-flex-middle" uk-tooltip="Powrót do galerii" href="/galeria.html" ><span class="material-icons">apps</span></a>
         </div>
         <div class="">
             {% if page.next.url %}
@@ -35,7 +35,7 @@ layout: default
         {% for portfolio in site.portfolios limit:"5" %}   
         <li>
             <div class="gallery-item-inner gallery-3-4" >
-                <a href="{{portfolio.url}}" class=""><img src="{{portfolio.thumbnail | relative_url}}" loading="lazy" alt="{{portfolio.title}}"></a>                     
+                <a href="{{portfolio.url}}" class=""><img src="{{portfolio.thumbnail | relative_url}}" alt="{{portfolio.title}}"></a>                     
             </div>
             <h6 class="uk-text-center uk-margin-remove">{{portfolio.title}}</h6>
             <!--<h7>{{portfolio.categories}}</h7>-->
