@@ -20,6 +20,10 @@ body {
 	max-width: 1140px;
 	}
 
+.container-relative {
+    position: relative;
+}
+
 h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-heading-small, .uk-heading-medium, .uk-heading-large, .uk-heading-xlarge, .uk-heading-2xlarge {
     margin: 0 0 15px 0;
     font-family: 'Montserrat', sans-serif;
@@ -106,24 +110,31 @@ border-radius: 0;
 
 }
 .ratio_1_1{
+  width: 100%; 
   padding-bottom: 100%;
 }
 .ratio_16_9{
+  width: 100%;
   padding-bottom: 56.25%;
 }
 .ratio_4_3{
+  width: 100%;
   padding-bottom: 75%;
 }
 .ratio_3_2{
+  width: 100%;
   padding-bottom: 66.66%;
 }
 .ratio_2_3{
+  width: 100%;
   padding-bottom: 150%;
 }
 .ratio_3_4{
+  width: 100%;
   padding-bottom: 133.33%;
 }
 .ratio_9_16{
+  width: 100%;
   padding-bottom: 177.77%;
 }
 
