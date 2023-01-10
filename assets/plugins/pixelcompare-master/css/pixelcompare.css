@@ -1,0 +1,187 @@
+.con_4_3 { 
+  width: 100%; 
+  padding-bottom: 75%;
+}
+
+.pixelcompare-wrapper.pixelcompare-horizontal {
+  height: 100% !important;
+}
+.pixelcompare-horizontal .pixelcompare-handle:before, .pixelcompare-horizontal .pixelcompare-handle:after, .pixelcompare-vertical .pixelcompare-handle:before, .pixelcompare-vertical .pixelcompare-handle:after {
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  z-index: 30; 
+}
+img.pixelcompare-before, img.pixelcompare-after {
+  height: 100%;
+  object-fit: cover;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.pixelcompare-before-label, .pixelcompare-after-label, .pixelcompare-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+.pixelcompare-before-label, .pixelcompare-after-label, .pixelcompare-overlay {
+  transition-duration: 0.5s; 
+}
+
+.pixelcompare-before-label, .pixelcompare-after-label {
+  transition-property: opacity; 
+}
+
+.pixelcompare-horizontal .pixelcompare-before-label:before, .pixelcompare-horizontal .pixelcompare-after-label:before {
+  top: 50%;
+  margin-top: -19px; 
+}
+
+
+.pixelcompare-left-arrow, .pixelcompare-right-arrow, .pixelcompare-up-arrow, .pixelcompare-down-arrow {
+  width: 0;
+  height: 0;
+  border: 10px inset transparent;
+  position: absolute; 
+}
+
+.pixelcompare-left-arrow, .pixelcompare-right-arrow {
+  top: 50%;
+  margin-top: -10px;
+}
+
+
+.pixelcompare-container {
+  box-sizing: content-box;
+  z-index: 0;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.pixelcompare-container img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  display: block; 
+}
+/* .pixelcompare-container.active .pixelcompare-overlay,
+.pixelcompare-container.active :hover.pixelcompare-overlay {
+  background: transparent; 
+} */
+.pixelcompare-container.active .pixelcompare-overlay .pixelcompare-before-label,
+.pixelcompare-container.active .pixelcompare-overlay .pixelcompare-after-label,
+.pixelcompare-container.active :hover.pixelcompare-overlay .pixelcompare-before-label,
+.pixelcompare-container.active :hover.pixelcompare-overlay .pixelcompare-after-label {
+  opacity: 0; 
+}
+.pixelcompare-container * {
+  box-sizing: content-box; 
+}
+
+.pixelcompare-before-label {
+  opacity: 0; 
+}
+.pixelcompare-before-label:before {
+  content: attr(data-content); 
+}
+
+.pixelcompare-after-label {
+  opacity: 0; 
+}
+.pixelcompare-after-label:before {
+  content: attr(data-content); 
+}
+
+.pixelcompare-horizontal .pixelcompare-before-label:before {
+  left: 10px; 
+}
+
+.pixelcompare-horizontal .pixelcompare-after-label:before {
+  right: 10px; 
+}
+
+.pixelcompare-overlay {
+  transition-property: background;
+  background: transparent;
+  z-index: 25; 
+}
+.pixelcompare-overlay:hover, 
+.pixelcompare-container.active .pixelcompare-overlay, 
+.pixelcompare-handle:hover + .pixelcompare-overlay {
+  background: rgba(0, 0, 0, 0.5); 
+}
+.pixelcompare-overlay:hover .pixelcompare-after-label {
+  opacity: 1; 
+}
+.pixelcompare-overlay:hover .pixelcompare-before-label {
+  opacity: 1; 
+}
+
+.pixelcompare-before {
+  z-index: 20; 
+}
+
+.pixelcompare-after {
+  z-index: 10; 
+}
+
+.pixelcompare-horizontal .pixelcompare-handle {
+  border:  2px solid rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -20px;
+  margin-left: -23px;
+  border-radius: 1000px;
+  box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+  z-index: 40;
+  cursor: pointer;
+}
+
+.pixelcompare-horizontal .pixelcompare-handle:before {
+  bottom: 50%;
+  height: 800px;    
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  border-right: 1px dashed rgba(255, 255, 255, 1);
+}
+
+.pixelcompare-horizontal .pixelcompare-handle:after {
+  top: 50%;
+  height: 800px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  border-right: 1px dashed rgba(255, 255, 255, 1);
+}
+
+
+.pixelcompare-left-arrow {
+  border-right: 8px solid rgba(247, 237, 237, 1);
+  left: 50%;
+  margin-left: -20px;
+}
+
+.pixelcompare-right-arrow {
+  border-left: 8px solid rgba(247, 237, 237, 1);
+  right: 50%;
+  margin-right: -20px; 
+}
