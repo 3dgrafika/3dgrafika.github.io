@@ -35,7 +35,7 @@ layout: default
         {% for portfolio in site.portfolios limit:"5" %}   
         <li>
             <div class="gallery-item-inner gallery-3-4" >
-                <a href="{{portfolio.url}}" class=""><img src="{{portfolio.thumbnail | relative_url}}" alt="{{portfolio.title}}"></a>                     
+                <a href="{{portfolio.url}}" class=""><img src="{{portfolio.thumbnail | relative_url}}" loading="lazy" alt="{{portfolio.title}}"></a>                     
             </div>
             <h6 class="uk-text-center uk-margin-remove">{{portfolio.title}}</h6>
             <!--<h7>{{portfolio.categories}}</h7>-->
