@@ -19,7 +19,7 @@ layout: default
             {% for portfolio in site.portfolios %}
             <div class= "uk-card" data-tags="{{portfolio.categories}}">
                 <div class="gallery-item-inner gallery-1-1" >
-                    <a href="{{portfolio.url | relative_url }}" class=""><img class="" src="{{portfolio.thumbnail | relative_url }}" alt="portfolio"></a>                     
+                    <a href="{{portfolio.url | relative_url }}" class=""><img class="" src="{{portfolio.thumbnail | relative_url }}" loading="lazy" alt="portfolio"></a>                     
                 </div>
             </div>
             {% endfor %}
