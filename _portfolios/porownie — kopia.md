@@ -13,30 +13,6 @@ galeria: "img/portfolio/24/galeria"
 
 {% include portfolio-galery.html %}
 
-
-
-<div class="mainSection">
-    <div id="one" class="bal-container">
-        <div class="bal-before">
-            <div class="bal-before-inset">
-                <img src="/assets/img/portfolio/24/Nowy folder/wiz_002.jpg">
-                <div class="bal-beforePosition beforeLabel">
-                    Wersja 1
-                </div>
-            </div>
-        </div>
-        <div class="bal-after">
-            <img src="/assets/img/portfolio/24/Nowy folder/wiz_001.jpg">
-            <div class="bal-afterPosition afterLabel">
-                Wersja 2
-            </div>
-        </div>
-        <div class="bal-handle">
-            <span class=" handle-left-arrow"></span>
-            <span class="handle-right-arrow"></span>
-        </div>
-    </div>
-</div>
 <br>
 <div id="panorama"></div>
 <script>
@@ -46,12 +22,3 @@ pannellum.viewer('panorama', {
 });
 </script>
 
-
-
-<script src="/assets/plugins/comparison-slider/js/script.js"></script>
-
-<script>
-    new BeforeAfter({
-        id: '#one'
-    });
-</script>
