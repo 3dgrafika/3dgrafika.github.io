@@ -13,17 +13,17 @@ galeria: "img/portfolio/31/galeria"
 
 {% include portfolio-galery.html %}
 
-<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_4_3" data-pixelcompare data-horizontal>
+<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_3_4" data-pixelcompare data-horizontal>
     <img src="/assets/img/portfolio/31/p/wiz_006.jpg" width="100%"/>
     <img src="/assets/img/portfolio/31/p/wiz_007.jpg" width="100%"/>
 </div>
 
-<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_4_3" data-pixelcompare data-horizontal>
+<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_3_4" data-pixelcompare data-horizontal>
     <img src="/assets/img/portfolio/31/p/wiz_008.jpg" width="100%"/>
     <img src="/assets/img/portfolio/31/p/wiz_009.jpg" width="100%"/>
 </div>
 
-<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_4_3" data-pixelcompare data-horizontal>
+<div class="container-relative uk-margin-medium-bottom pixelcompare ratio_3_4" data-pixelcompare data-horizontal>
     <img src="/assets/img/portfolio/31/p/wiz_010.jpg" width="100%"/>
     <img src="/assets/img/portfolio/31/p/wiz_011.jpg" width="100%"/>
 </div>
@@ -31,7 +31,7 @@ galeria: "img/portfolio/31/galeria"
 <script src="/assets/plugins/pixelcompare-master/js/pixelcompare.js"></script>
 
 <h4>Widok 360&#176;</h4>
-<div id="panorama" class="ratio_4_3"></div>
+<div id="panorama" class="ratio_1_1"></div>
 <script>
 pannellum.viewer('panorama', {
     "type": "equirectangular",
