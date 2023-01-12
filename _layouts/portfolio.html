@@ -4,127 +4,31 @@ layout: default
 
 {{page.content}}
 
+{% include share-bar.html %}
 
-<!-- nawigacja-->				
+<i class="i-14 icon-tags">{{ page.tags | join: ' ' }}</i>
+
+
+<!-- nawigacja-->	
 <div class="uk-margin-medium " tabindex="0">
     <div class="uk-pagination uk-child-width-expand">
         <div class="">
             {% if page.previous.url %}
-            <a class="my_move_left uk-flex uk-flex-middle" href="{{page.previous.url}}"><span class="material-symbols-outlined">arrow_back_ios_new</span>STARSZY PROJEKT</a>
+            <a class="my_move_left uk-flex uk-flex-middle" href="{{page.previous.url}}"><i class="i-mid icon-arrow_back"></i>POPRZEDNI PROJEKT</a>
             {% endif %}
         </div>
         <div class="uk-width-1-6">
-            <a class="uk-position-center uk-flex uk-flex-middle" uk-tooltip="Powrót do galerii" href="/galeria.html" ><span class="material-icons">apps</span></a>
+            <a class="uk-position-center uk-flex uk-flex-middle" uk-tooltip="Powrót do galerii" href="/galeria.html" ><i class="i-small icon-th"></i></a>
         </div>
         <div class="">
             {% if page.next.url %}
-            <a class="my_move_right uk-flex uk-flex-middle uk-text-right uk-flex-right" href="{{page.next.url}}">NOWSZY PROJEKT<span class="material-symbols-outlined">arrow_forward_ios</span></a>
+            <a class="my_move_right uk-flex uk-flex-middle uk-text-right uk-flex-right" href="{{page.next.url}}">KOLEJNY PROJEKT<i class="i-mid icon-arrow_forward"></i></a>
             {% endif %}
         </div>
     </div>
 </div>
-
 <!-- nawigacja-->
 
-<!-- slider pdobne projekty -->
-<h3 class="uk-text-center uk-margin-remove">PODOBNE PROJEKTY</h3>
-<hr class="uk-divider-small uk-text-center">
+{% include podobne-projekty.html %}
+		
 
-<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
-        {% for portfolio in site.portfolios limit:"5" %}   
-        <li>
-            <div class="gallery-item-inner gallery-3-4" >
-                <a href="{{portfolio.url}}" class=""><img src="{{portfolio.thumbnail | relative_url}}" alt="{{portfolio.title}}"></a>                     
-            </div>
-            <h6 class="uk-text-center uk-margin-remove">{{portfolio.title}}</h6>
-            <!--<h7>{{portfolio.categories}}</h7>-->
-        </li>
-        {% endfor %}
-    </ul>
-    <a class="uk-position-center-left uk-position-small uk-light" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-light" href="#" uk-slidenav-next uk-slider-item="next"></a>
-</div>
-<br>			
-<!-- slider pdobne projekty -->
-
-
-<!-- slider pdobne projekty -->
-<div class="">
-
-<h4>You May Also Enjoy</h4>
-
-{% assign maxRelated = 3 %}
-{% assign minCommonTags =  2 %}
-{% assign maxRelatedCounter = 0 %}
-
-  {% for portfolio in site.portfolios %}
-
-    {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
-
-    {% for tag in portfolio.tags %}
-      {% if portfolio.url != page.url %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% assign commonTags = commonTags | append: tagmarkup %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% if sameTagCount >= minCommonTags %}
-      <div>
-      <h5><a href="{{ site.baseurl }}{{ portfolio.url }}">{{ portfolio.title }}{{ commonTags }}</a></h5>
-      </div>
-      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-    {% endif %}
-
-  {% endfor %}
-
-</div>			
-<!-- slider pdobne projekty -->
-<hr>
-<h4>You May Also Enjoy</h4>
-<div class="">
-
-    {% assign maxRelated = 4 %}
-    {% assign minCommonTags =  2 %}
-    {% assign maxRelatedCounter = 0 %}
-
-    {% for portolio in site.portfolios %}
-
-    {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
-
-    {% for tag in portfolios.tags %}
-      {% if portfolios.url != page.url %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% assign commonTags = commonTags | append: tagmarkup %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% if sameTagCount >= minCommonTags %}
-      <div>
-      <h5><a href="{{ site.baseurl }}{{ portfolios.url }}">{{ portfolios.title }}{{ commonTags }}</a></h5>
-      </div>
-      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-    {% endif %}
-
- {% endfor %}
-
-</div>
-
-{% else %}
-
-//Related posts code for usual posts
-{% endif %}
