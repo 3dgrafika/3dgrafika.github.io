@@ -31,7 +31,24 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
     color: #333;
     text-transform: none;
 	}
-.border-top {
+
+.i-14 {
+  font-size: 14px;
+  font-style: normal;
+}
+ .i-small {
+  font-size: 20px;
+  font-style: normal;
+}
+.i-mid {
+font-size: 30px;
+font-style: normal;
+}
+.i-larg {
+font-size: 40px;
+font-style: normal;
+}
+  .border-top {
 	border-top: 1px solid #e5e5e5;
 	}
 
@@ -91,8 +108,7 @@ border-radius: 0;
 
 .slider-glowny{
 	margin-bottom: 50px;
-
-	}
+}
 
 .wys{
   height: calc( 100vh - 160px );
