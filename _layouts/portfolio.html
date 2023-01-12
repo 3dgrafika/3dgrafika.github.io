@@ -55,7 +55,7 @@ layout: default
 <h4>You May Also Enjoy</h4>
 
 {% assign maxRelated = 3 %}
-{% assign minCommonTags =  3 %}
+{% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
 
   {% for portfolio in site.portfolios %}
@@ -89,7 +89,6 @@ layout: default
 <!-- slider pdobne projekty -->
 <hr>
 <h4>You May Also Enjoy</h4>
-{% if page.url contains 'portfolios' %}
 <div class="">
 
     {% assign maxRelated = 4 %}
