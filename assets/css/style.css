@@ -32,10 +32,17 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
     text-transform: none;
 	}
 
+
+
+.uk-animation-fade {
+  animation-name: uk-fade;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
 .i-14 {
   font-size: 14px;
   font-style: normal;
-color: #A9A9A9;
 }
  .i-small {
   font-size: 20px;
