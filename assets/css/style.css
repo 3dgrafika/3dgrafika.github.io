@@ -14,7 +14,15 @@ html {
 body {
   overflow: scroll;
   overflow-x:hidden;
+
+  --c1: #FFF;
+  --c2: #161616;
+  --c3: #333333;
+  --c4: #b6b6b6;
+  --c5: #c90f0f;
 }
+
+
 
 .uk-container {
 	max-width: 1140px;
@@ -28,11 +36,9 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
     margin: 0 0 15px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    color: #333;
+    color: var(--c3);
     text-transform: none;
 	}
-
-
 
 .uk-animation-fade {
   animation-name: uk-fade;
@@ -40,25 +46,31 @@ h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-head
   animation-timing-function: linear;
 }
 
+.ic-share i {
+  color: var(--c4);
+  font-size: 24px;
+}
+
 .i-14 {
   font-size: 14px;
   font-style: normal;
+  color: var(--c4);
 }
- .i-small {
+.i-small {
   font-size: 20px;
   font-style: normal;
 }
 .i-mid {
-font-size: 30px;
-font-style: normal;
+  font-size: 30px;
+  font-style: normal;
 }
 .i-larg {
-font-size: 40px;
-font-style: normal;
+  font-size: 40px;
+  font-style: normal;
 }
-  .border-top {
-	border-top: 1px solid #e5e5e5;
-	}
+.border-top {
+  border-top: 1px solid var(--c1);
+}
 
 
 .uk-logo{
@@ -202,7 +214,7 @@ border-radius: 0;
 
 .uk-lightbox-toolbar {
     padding: 10px 10px;
-	background: rgba(0, 0, 0, 0%);
+	  background: rgba(0, 0, 0, 0%);
 	}
 	
 .uk-navbar-container:not(.uk-navbar-transparent) {
@@ -263,7 +275,7 @@ border-radius: 0;
   font-size: 26px;
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: var(--c1);
   color: #999;
   cursor: pointer;
   outline: none;
