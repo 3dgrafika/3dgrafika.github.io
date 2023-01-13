@@ -5,8 +5,28 @@ layout: default
 {{page.content}}
 
 
-<i class="i-14 icon-tags">{{ page.tags | join: ' ' }}</i>
+<!-- nawigacja--
+<div class="uk-flex uk-margin-small uk-flex-middle">
+    <i class="i-14 icon-tags ">{{ page.tags | join: ' ' }}</i>
 
+    <div class="ic-share uk-flex-right uk-text-right">
+        Udostępnij na: 
+        <a href=""><i class="i-mid icon-facebook"></i></a>
+        <a href=""><i class="i-mid icon-twitter"></i></a>
+        <a href=""><i class="i-mid icon-googleplus"></i></a>
+        <a href=""><i class="i-mid icon-dribbble"></i></a>
+    </div>
+</div>
+<!-- nawigacja-->
+<i class="i-14 icon-tags ">{{ page.tags | join: ' ' }}</i>
+
+<div class="ic-share uk-margin-small">
+    Udostępnij na: 
+    <a href=""><i class="i-mid icon-facebook"></i></a>
+    <a href=""><i class="i-mid icon-twitter"></i></a>
+    <a href=""><i class="i-mid icon-googleplus"></i></a>
+    <a href=""><i class="i-mid icon-dribbble"></i></a>
+</div>
 
 <!-- nawigacja-->	
 <div class="uk-margin-medium " tabindex="0">
