@@ -11,19 +11,19 @@
 	</div>
 	<div class="uk-width-1-3@m uk-padding-large">
 		<ul class="uk-list uk-list-divider uk-link-text">
-			<li><b>Kategoria:</b> {{page.categories | join: ', ' }}</li>
+			<li><b>Kategoria:&nbsp;</b> {{page.categories | join: ', ' }}</li>
 
 			{% assign client = page.client %}
 			{% if page.client contains client %}
-			<li><b>Klient:</b> {{page.client}}</li>
+			<li><b>Klient:&nbsp;</b> {{page.client}}</li>
 			{% endif %}
 			
 			{% assign area = page.area %}
 			{% if page.area contains area %}
-			<li><b>Powierzchnia: </b> {{page.area}}</sup></li>
+			<li><b>Powierzchnia:&nbsp;</b> {{page.area}}</sup></li>
 			{% endif %}
 			
-			<li><b>Data:</b> {{page.data}}</li>
+			<li><b>Data:&nbsp;</b> {{page.data}}</li>
 			<!-- opis --
 			<li><b>Tagi:</b>
 				{% for tag in page.tags %}
