@@ -55,6 +55,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
 
 collections:
   portfolios:
