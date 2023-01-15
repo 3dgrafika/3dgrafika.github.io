@@ -31,8 +31,10 @@ github_username:  jekyll
 google_analytics: G-8EJFDNPPG1
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
 
