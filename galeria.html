@@ -20,10 +20,10 @@ layout: default
             {% for portfolio in site.portfolios reversed %}
             <div class= "uk-card uk-transition-toggle" data-tags="{{portfolio.categories}}">
                 <div class="gallery-item-inner gallery-1-1" >
-                    <a href="{{portfolio.url | relative_url }}" class=""><img class="" src="{{portfolio.thumbnail | relative_url }}" loading="lazy" alt="portfolio"></a> 
+                    <a href="{{portfolio.url | relative_url }}" class=""><img class="" src="{{portfolio.thumbnail | relative_url }}" loading="lazy" alt="portfolio"> 
                     <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
                         <p class="uk-h4 uk-margin-remove uk-text-uppercase uk-text-center">{{portfolio.title}}</p>
-                    </div>                    
+                    </div> </a>                   
                 </div>
             </div>
             {% endfor %}
