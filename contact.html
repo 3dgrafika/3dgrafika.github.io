@@ -1,6 +1,38 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+  var submitted = false;
+</script>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+  onload="if(submitted) {window.location='/dziekuje';}"></iframe>
+
+
 <h3 class="uk-text-center uk-margin-remove">Kontakt</h3>
+
+<div class="uk-grid-small uk-text-left uk-margin-large-left uk-margin-large-right" uk-grid>
+	<div class="uk-width-3-5@m uk-padding-large">
+		<h5 class="uk-margin-remove"><b>Masz pytanie? Napisz do nas.</b></h5>
+		<br>
+			<form action="https://docs.google.com/forms/d/e/1FAIpQLSeCvhV0wEhEz5jHqs-AV6EvZWiE6waKUBKIuiyqLuI8NmkWRA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+					<div class="uk-margin">
+						<input class="uk-input" type="text" placeholder="Imię i Nazwisko" aria-label="Imię" name="entry.2005620554">
+					</div>
+					
+					<div class="uk-margin">
+						<input class="uk-input" type="text" placeholder="Adres e-mail" aria-label="Input" name="emailAddress">
+					</div>
+
+					<div class="uk-margin">
+						<textarea class="uk-textarea" rows="5" placeholder="Treść wiadomości" aria-label="Textarea" name="entry.839337160"></textarea>
+					</div>
+					<p uk-margin>
+						<input class="uk-button uk-button-default" type="submit" value="Wyślij">
+					</p>
+			</form>
+	</div>
+</div>
+
 <hr class="uk-divider-small uk-text-center">
 <br>
