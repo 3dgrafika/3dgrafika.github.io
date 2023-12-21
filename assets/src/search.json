@@ -1,140 +1,21 @@
+---
+layout: null
+sitemap: false
+---
 
-
+{% capture json %}
 [
-  
-  
-    
-    
-      {
-        "title": "wizualizacja",
-        "url": "/portfolios/02"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/03"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/04"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/05"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/06"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/07"
-      },
-    
-      {
-        "title": "Wnętrze domu",
-        "url": "/portfolios/08"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/09"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/10-salon"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA MIESZKANIA",
-        "url": "/portfolios/11-salon"
-      },
-    
-      {
-        "title": "WIZUALIZACJA SALONU ODZIEŻOWEGO",
-        "url": "/portfolios/15"
-      },
-    
-      {
-        "title": "WIZUALIZACJA OSIEDLA DOMÓW",
-        "url": "/portfolios/16"
-      },
-    
-      {
-        "title": "KLATKA SCHODOWA W BUDYNKU WILORODZINNYM",
-        "url": "/portfolios/17-hol"
-      },
-    
-      {
-        "title": "POMNIK POLSKICH OFIAR KOMUNIZMU",
-        "url": "/portfolios/18-pomnik"
-      },
-    
-      {
-        "title": "WIZUALIZACJA POMNIKA INKI",
-        "url": "/portfolios/19-pomnik"
-      },
-    
-      {
-        "title": "MODERNIZACJA OSIELDA",
-        "url": "/portfolios/20"
-      },
-    
-      {
-        "title": "WIZUALIZACJA SALONU SAMOCHODOWEGO",
-        "url": "/portfolios/22"
-      },
-    
-      {
-        "title": "PROJEKT DOMU JEDNORODZINNEGO",
-        "url": "/portfolios/23"
-      },
-    
-      {
-        "title": "PROJEKT STANOWISKA GASTRONOMICZNEGO",
-        "url": "/portfolios/24-porownanie"
-      },
-    
-      {
-        "title": "PROJEKT DOMU JEDNORODZINNEGO",
-        "url": "/portfolios/25"
-      },
-    
-      {
-        "title": "wizualizacja",
-        "url": "/portfolios/27"
-      },
-    
-      {
-        "title": "PROJEKT WNETRZA ŁAZIENKI",
-        "url": "/portfolios/29"
-      },
-    
-      {
-        "title": "PROJEKT DOMU JEDNORODZINNEGO",
-        "url": "/portfolios/30"
-      },
-    
-      {
-        "title": "Łazienka",
-        "url": "/portfolios/31-porownie-360"
-      },
-    
-      {
-        "title": "Salon",
-        "url": "/portfolios/34-360"
-      },
-    
-  
-    
-    
-  
-  
-  
-]
+  {% for portfolio in site.portfolios %}
+    {
 
+      "title"    : "{{ portfolio.title }}",
+      "tags"     : "{{ portfolio.tags | join: ' ' }}",
+      "thumbnail": "{{portfolio.thumbnail | relative_url }}",
+      "url"      : "{{ site.baseurl }}{{ portfolio.url }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% endcapture %}
+
+{{ json | lstrip }}
