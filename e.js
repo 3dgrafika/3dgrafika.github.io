@@ -1,6 +1,6 @@
 let jsonData;
 let currentPage = 1;
-const resultsPerPage = 4;
+const resultsPerPage = 10;
 
 // Funkcja do pobierania danych z pliku JSON
 async function fetchData() {
