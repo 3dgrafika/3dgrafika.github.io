@@ -15,56 +15,122 @@ layout: default
 
 <!-- galeria z filtrem -->
 
-<div class="uk-grid-medium uk-text-left" uk-grid>
+<div class="uk-grid-large" uk-grid>
 
-	<div class=" uk-margin-bottom uk-width-1-4@m"> 
-		<div id="">
-			<div class="uk-sticky uk-margin uk-flex uk-flex-between" uk-sticky="position: bottom; offset: -5">
-				<button class="uk-button uk-button-primary" type="button" onclick="handleSubmit()">Filtruj</button>
-				<button class="uk-button uk-button-secondary" type="button" style="display: none;" id="resetBtn" onclick="resetFilters()">Reset</button>
-			</div>
-      		<input type="text" id="name" placeholder="Nazwa">
-      		<hr>
-			<h5><b>Powierzchnia</b></h5>
-				<input class="uk-range" type="range" value="2" min="0" max="10" step="0.1" aria-label="Range">
-				<input type="number" id="areaMin" placeholder="Powierzchnia min">
-				<input type="number" id="areaMax" placeholder="Powierzchnia max">
-			<hr>
-			<h5><b>Kondygnacje</b></h5>
-				<div class="">
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox1" value="1"> Parterowy</li>
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox2" value="2"> Z poddaszem</li>
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox3" value="3"> Pietrowe</li>
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox4" value="4"> Z piwnicą</li>
+	<div class="uk-width-1-4@m "> 				
+				<ul class="uk-list-divider" uk-accordion="multiple: true">
+					<li class="uk-open">
+						<a class="uk-accordion-title">Powierzchnia</a>
+						<div class="uk-accordion-content ">
+							<div class="uk-margin-small-bottom uk-grid-small uk-child-width-1-2" uk-grid>
+								<div class="">
+									<input class="uk-input" type="number" id="areaMin" placeholder="Min">
+								</div>
+								<div class="">
+									<input class="uk-input" type="number" id="areaMax" placeholder="Max">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="uk-open">
+						<a class="uk-accordion-title">Kondygnacje</a>
+						<div class="uk-accordion-content">
+							<ul class="uk-list uk-margin-small-bottom">
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox1" value="1"> Parterowy</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox2" value="2"> Z poddaszem</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox3" value="3"> Pietrowe</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox4" value="4"> Z piwnicą</li>
+							</ul>	
+						</div>
+					</li>
+					<li class="">
+						<a class="uk-accordion-title">Działka</a>
+						<div class="uk-accordion-content">
+							<div class="uk-grid-small uk-child-width-1-2" uk-grid>
+								<div class="">
+									<input class="uk-input" type="number" id="length" placeholder="Długość">
+								</div>
+								<div class="">
+									<input class="uk-input" type="number" id="width" placeholder="Szerokość">
+								</div>
+							</div>						
+							<ul class="uk-list uk-margin-small-bottom">
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox1" value="1"> Z wejściem od południa</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox2" value="2"> Na wąską działkę</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox3" value="3"> Na płytką działkę</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox4" value="4"> Spadek terenu</li>
+							</ul>
+						</div>
+					</li>
+					<li class="">
+						<a class="uk-accordion-title">Pomieszczenia</a>
+						<div class="uk-accordion-content">
+							<h6>Pokoje</h6>
+							<div class="uk-margin uk-grid-small uk-child-width-auto">
+								<label><input class="uk-checkbox" type="checkbox" id="checkbox9" value="9"> 2</label>
+								<label><input class="uk-checkbox" type="checkbox" id="checkbox10" value="10"> 3</label>
+								<label><input class="uk-checkbox" type="checkbox" id="checkbox11" value="11"> 4</label>
+								<label><input class="uk-checkbox" type="checkbox" id="checkbox12" value="12"> 4+</label>
+							</div>
+							<h6>Łazienki</h6>
+							<div class="uk-margin uk-grid-small uk-child-width-auto">
+								<label><input class="uk-checkbox" type="checkbox"> 2</label>
+								<label><input class="uk-checkbox" type="checkbox"> 3</label>
+								<label><input class="uk-checkbox" type="checkbox"> 4</label>
+							</div>
+						</div>
+					</li>
+					<li class="">
+						<a class="uk-accordion-title">Dach</a>
+						<div class="uk-accordion-content">
+							<ul class="uk-list">
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox1" value="1"> Płaski</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox2" value="2"> Dwuspadowy</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox3" value="3"> Wielospadowy</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox4" value="4"> Bez okapu</li>
+							</ul>
+							<div class="uk-margin-small-bottom">
+								<h5>Kąt nachylenia dachu</h5>
+								<div class="uk-grid-small uk-child-width-1-2" uk-grid>
+									<div class="">
+										<input class="uk-input" type="number" id="width" placeholder="od">
+									</div>
+									<div class="">
+										<input class="uk-input" type="number" id="length" placeholder="do">
+									</div>
+								</div>
+							</div>							
+						</div>
+					</li>
+					<li class="">
+						<a class="uk-accordion-title">Garaż</a>
+						<div class="uk-accordion-content">
+							<ul class="uk-list uk-margin-small-bottom">
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox5" value="5"> Bez garażu</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox6" value="6"> Jednostanowiskowy</li>
+								<li><input class="uk-checkbox" type="checkbox" id="checkbox7" value="7"> Dwustanowiskowy</li>
+							</ul>
+						</div>
+					</li>					
+				</ul>
+
+				<div class="uk-sticky uk-margin uk-flex uk-flex-between" uk-sticky="position: bottom; offset: -5">
+					<button class="uk-button uk-button-primary" type="button" onclick="handleSubmit()">Filtruj</button>
+					<button class="uk-button uk-button-secondary" type="button" style="display: none;" id="resetBtn" onclick="resetFilters()">Reset</button>
 				</div>
-			<hr>			
-			<h5><b>Garaż</b></h5>
-				<div class="">
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox5" value="5"> Bez garażu</li>
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox6" value="6"> Jednostanowiskowy</li>
-					<li class="uk-margin-small-bottom"><input class="uk-checkbox" type="checkbox" id="checkbox7" value="7"> Dwustanowiskowy</li>
-				</div>
-			<hr>
-			<h5><b>Pomieszczenia</b></h5>
-			Pokoje
-				<div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-					<label><input class="uk-checkbox" type="checkbox"> 1</label>
-					<label><input class="uk-checkbox" type="checkbox"> 2</label>
-					<label><input class="uk-checkbox" type="checkbox"> 3</label>
-					<label><input class="uk-checkbox" type="checkbox"> 4</label>
-					<label><input class="uk-checkbox" type="checkbox"> 4+</label>
-				</div>
-			<hr>
-			<h5><b>Działka</b></h5>
-			<input type="number" id="width" placeholder="Szerokość">
-			<input type="number" id="length" placeholder="Długość">
-			<hr>
-		</div>
+
 	</div>
 	
 	<div class="uk-margin-bottom uk-width-3-4@m"> 
+		<div class="uk-margin">
+			<form class="uk-search uk-search-default">
+				<a href="" class="uk-search-icon-flip" uk-search-icon></a>
+				<input class="uk-search-input" type="text" id="name" placeholder="Search" aria-label="Search">
+			</form>
+		</div>
+	
     	<div id="result" class="uk-child-width-1-2 uk-grid-medium" uk-grid></div>
-		<div id="pagination" class="" ></div>
+		<div class="uk-text-default uk-flex uk-flex-center uk-margin" id="pagination"></div>
 	</div>
 
 </div>
